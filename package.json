@@ -2,9 +2,6 @@
   "name": "@the-chat/storage",
   "version": "1.0.1",
   "main": "dist/index.js",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
-  },
   "repository": "git://github.com/the-chat/storage",
   "files": [
     "dist"
