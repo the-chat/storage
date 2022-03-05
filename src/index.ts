@@ -1,4 +1,5 @@
-class GlobalStorage<T extends object = {}> {
+// todo?: types same as in gen-context
+class GlobalStorage<T extends Record<string, unknown> = Record<string, never>> {
   constructor(private storage: T) {}
 
   set<V extends T[keyof T]>(k: keyof T, v: V) {
